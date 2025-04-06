@@ -1018,6 +1018,28 @@ section,
   .hero p {
     font-size: 18px;
   }
+  /* Apply compact card height on phones */
+@media (max-width: 767px) {
+  .service-item .details {
+    max-height: 400px; /* Adjust as needed */
+    overflow: hidden;
+  }
+
+  .service-item p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .service-item h3 {
+    font-size: 18px;
+  }
+
+  .service-item .img img {
+    max-height: 180px;
+    object-fit: cover;
+  }
+}
+
 }
 
 /*--------------------------------------------------------------
