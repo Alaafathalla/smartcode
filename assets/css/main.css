@@ -1415,7 +1415,7 @@ section,
   .section{
     padding: 15px 0 !important;
   }
-  @media (max-width: 767.98px) {
+  @media (max-width: 768px) {
   .servicescards .col-md-6 {
     flex: 0 0 100%;
     max-width: 100%;
@@ -1443,6 +1443,7 @@ section,
 
 .service-item .details {
   margin-top: 0.75rem;
+margin: -100 2px 0 2px !important;
 }
 
 .service-item .icon {
