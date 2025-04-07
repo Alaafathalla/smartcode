@@ -20,7 +20,7 @@
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
+  --default-color: #615f5f; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #04156a; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #2ab6d2; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
@@ -222,7 +222,7 @@ h6 {
 # Global 
 --------------------------------------------------------------*/
 .header {
-  --background-color: rgba(42, 39, 39, 0);
+  --background-color: rgba(73, 71, 71, 0);
   --default-color: #ffffff;
   --heading-color: #ffffff;
   color: var(--default-color);
@@ -231,6 +231,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
 }
+
 
 .header .logo {
   line-height: 1;
@@ -949,6 +950,9 @@ section,
   .section-title p {
     font-size: 24px;
   }
+  .navbtn{
+    display: none;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1378,6 +1382,10 @@ section,
     line-height: 1;
     font-size: 36px;
   }
+  section,
+  .section{
+    padding: 15px 0 !important;
+  }
 }
 
 @media (max-width: 575px) {
@@ -1579,6 +1587,7 @@ section,
   .testimonials .testimonial-item p {
     width: 80%;
   }
+
 }
 
 /*--------------------------------------------------------------
@@ -1985,6 +1994,4 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
+
