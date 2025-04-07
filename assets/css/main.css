@@ -1405,7 +1405,7 @@ section,
   color: var(--contrast-color);
 }
 
-@media (max-width: 768px) {
+
   .features .nav-link i {
     padding: 0;
     line-height: 1;
@@ -1425,7 +1425,29 @@ section,
     position: static;
   }
 }
+.service-item h3 {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
 
+.service-item p {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+}
+
+.service-item {
+  padding: 1rem;
+}
+
+.service-item .details {
+  margin-top: 0.75rem;
+}
+
+.service-item .icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 @media (max-width: 575px) {
