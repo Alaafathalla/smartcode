@@ -1432,8 +1432,8 @@ section,
 }
 
 .service-item p {
-  font-size: 0.85rem;
-  line-height: 1.4;
+  font-size: 0.75rem;
+  line-height: 1.3rem;
   margin-bottom: 0.5rem;
 }
 
@@ -1443,7 +1443,8 @@ section,
 
 .service-item .details {
   margin-top: 0.75rem;
-margin: -100 2px 0 2px !important;
+margin: -90px 0px 0 0px !important;
+
 }
 
 .service-item .icon {
