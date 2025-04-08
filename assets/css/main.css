@@ -45,11 +45,11 @@
 }
 
 .dark-background {
-  --background-color: #787c7ed9;
+  --background-color: #000910;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #28323a;
-  --contrast-color: #ffffff;
+  --contrast-color: #c4b9b9;
 }
 
 /* Smooth scroll */
@@ -222,11 +222,11 @@ h6 {
 # Global 
 --------------------------------------------------------------*/
 .header {
-  --background-color: rgba(175, 130, 170, 0);
+  --background-color: rgba(219, 213, 219, 0);
   --default-color: #ffffff;
   --heading-color: #ffffff;
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: #b0bbbbd9;
   padding: 20px 0;
   transition: all 0.5s;
   z-index: 997;
@@ -291,7 +291,7 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: #979da1d9;
+  --background-color: #75797cd9;
 }
 
 /*--------------------------------------------------------------
@@ -889,7 +889,9 @@ section,
     padding: 0 !important;
     margin-bottom: 20px;
     gap: 0 !important;
+    
   }
+
 
   .service-item {
     padding: 1.5rem;
@@ -996,7 +998,7 @@ section,
   padding: 80px 0;
   display: flex;
   align-items: center;
-  background-color: #909598 !important;
+  background-color: #c4c9cb !important;
   justify-content: center;
 }
 
